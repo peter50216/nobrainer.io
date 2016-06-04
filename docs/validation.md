@@ -82,7 +82,7 @@ You may use the `format` shorthand to specify a format validator:
 
 {% highlight ruby %}
 class Model
-  field :name, :format => { /\A[a-z]+\z/ }
+  field :name, :format => /\A[a-z]+\z/
 end
 # Equivalent to:
 class Model
