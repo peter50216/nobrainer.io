@@ -92,7 +92,7 @@ end
 
 ### length/min_length/max_length
 
-You may use the `format` shorthand to specify a format validator:
+You may use the `length`, `min_length`, `max_length` shorthand to specify a length validator:
 
 {% highlight ruby %}
 class Model
